@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#glass{
+    background:url('../../public/glassesImage/background.jpg');
+    height: 7000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    .title{
+        background-color: rgb(44 38 32 / 63%);
+        text-align: center;
+        color: #fff;
+        padding: 25px 10px;
+        font-weight: 600;
+    }
+    .body{
+        padding: 40px;
+        width: 100%;
+        margin: auto;
+        .content{
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            margin: auto;
+            .model{
+                position: relative;
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+                
+                .hide{
+                    position: absolute;
+                    top: 25%;
+                    left: 25%;
+                    width: 100%;
+                    img{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+        
+    }
+}
