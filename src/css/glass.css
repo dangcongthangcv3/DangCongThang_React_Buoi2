@@ -44,3 +44,18 @@
 #glass .body .content .model .hide img {
   width: 50%;
 }
+#glass .body .list-glass {
+  padding-top: 20px;
+  background: rgba(0, 0, 0, 0.6588235294);
+}
+#glass .body .list-glass .content {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+#glass .body .list-glass .content div {
+  margin-right: 10px;
+}
+#glass .body .list-glass .content div img {
+  width: 100px;
+}

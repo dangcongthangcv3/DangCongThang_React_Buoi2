@@ -35,7 +35,9 @@ export default class Glass extends Component {
               </div>
             </div>
             <div className="list-glass">
-              {this.renderGlass()}
+              <div className='content'>
+                {this.renderGlass()}
+              </div>
             </div>
         </div>
       </section>
